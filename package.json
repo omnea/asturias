@@ -1,0 +1,28 @@
+{
+  "name": "express-social-middleware",
+  "version": "0.0.3",
+  "description": "Middleware OAuth2.0 for Google and Facebook.",
+  "main": "middleware.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnea/express-social-middleware.git"
+  },
+  "author": "Fabio Garcia Balbuena",
+  "license": "MIT",
+  "keywords": ["google", "facebook", "middleware", "express", "oauth", "passport"],
+  "bugs": {
+    "url": "https://github.com/omnea/express-social-middleware/issues"
+  },
+  "homepage": "https://github.com/omnea/express-social-middleware#readme",
+  "dependencies": {
+    "build-url": "^1.3.2",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
